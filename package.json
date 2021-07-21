@@ -1,12 +1,16 @@
 {
-  "name": "snake",
+  "name": "next-basic-boilerplate",
+  "author": "Christopher Laeri",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write src/ && echo Formatting Complete",
+    "yarn:remove": "rm -rf .yarn .yarnrc.yml .pnp.js yarn.lock",
+    "yarn:setup": "yarn set version berry && yarn plugin import typescript && yarn plugin import interactive-tools && yarn && yarn dlx @yarnpkg/sdks vscode"
   },
   "dependencies": {
     "next": "11.0.1",

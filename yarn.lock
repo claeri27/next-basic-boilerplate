@@ -885,9 +885,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001202, caniuse-lite@npm:^1.0.30001219, caniuse-lite@npm:^1.0.30001228":
-  version: 1.0.30001245
-  resolution: "caniuse-lite@npm:1.0.30001245"
-  checksum: 6b0dbbe1d2542eb6390eae5d2dda2b1762d38d4d50eefb86d959c5e49a009e7213e8f0227f526068fff6d2e4baa5cd64dc741ac77603e16882aa0e806cfe9d58
+  version: 1.0.30001246
+  resolution: "caniuse-lite@npm:1.0.30001246"
+  checksum: 5813bdac4a7cc35d5e770e98a0326c3fe4f057c1f3706e1f16544938ebb8eaff2fabde9ae1b8ea2e0dd42592df37bc711e7898866e36c1ac4fcd104d1db7fdd9
   languageName: node
   linkType: hard
 
@@ -2964,6 +2964,24 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"next-basic-boilerplate@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "next-basic-boilerplate@workspace:."
+  dependencies:
+    "@types/node": ^16.4.0
+    "@types/prettier": ^2
+    "@types/react": 17.0.14
+    eslint: 7.31.0
+    eslint-config-next: 11.0.1
+    eslint-config-prettier: ^8.3.0
+    next: 11.0.1
+    prettier: 2.3.2
+    react: 17.0.2
+    react-dom: 17.0.2
+    typescript: 4.3.5
+  languageName: unknown
+  linkType: soft
+
 "next@npm:11.0.1":
   version: 11.0.1
   resolution: "next@npm:11.0.1"
@@ -4068,24 +4086,6 @@ resolve@^2.0.0-next.3:
   checksum: 00a23d82a20eced9622cbba18ba781f9f8968ccfa70af7a33336ae55f54651c073aa072084c521f7e78199767e5b3584a0bbf3a47bb60e3e5b79ea4fc1ca61a1
   languageName: node
   linkType: hard
-
-"snake@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "snake@workspace:."
-  dependencies:
-    "@types/node": ^16.4.0
-    "@types/prettier": ^2
-    "@types/react": 17.0.14
-    eslint: 7.31.0
-    eslint-config-next: 11.0.1
-    eslint-config-prettier: ^8.3.0
-    next: 11.0.1
-    prettier: 2.3.2
-    react: 17.0.2
-    react-dom: 17.0.2
-    typescript: 4.3.5
-  languageName: unknown
-  linkType: soft
 
 "socks-proxy-agent@npm:^5.0.0":
   version: 5.0.1
